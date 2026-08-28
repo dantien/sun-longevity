@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "SUN Longevity",
-    "slug": "sun-longevity",
+    "slug": "sevenunitynetwork",
+    "owner": "dantiens-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +16,11 @@
       "supportsTablet": true,
       "bundleIdentifier": "org.sevenunitynetwork.longevity",
       "infoPlist": {
-        "UIBackgroundModes": ["audio", "location", "bluetooth-central"],
+        "UIBackgroundModes": [
+          "audio",
+          "location",
+          "bluetooth-central"
+        ],
         "NSBluetoothAlwaysUsageDescription": "SUN Longevity bruker Bluetooth for å koble til pulsbelter (Polar, Garmin, Wahoo) under trening.",
         "NSBluetoothPeripheralUsageDescription": "SUN Longevity bruker Bluetooth for å motta sanntids hjertefrekvensdata.",
         "NSLocationWhenInUseUsageDescription": "SUN Longevity bruker posisjon for å beregne tempo (min/km) og distanse under MAF-trening.",
@@ -48,6 +53,9 @@
       "eas": {
         "projectId": "fae66403-bbed-4bfa-a15f-62e93fc72e7d"
       }
-    }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
