@@ -1,0 +1,21 @@
+# Environment & Secrets
+.env
+.env*.local
+*.pem
+
+# Dependencies & Build
+/node_modules
+/.next/
+/out/
+/dist/
+.expo/
+
+# Sovereign Local Databases (GDPR Art. 9)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# OS & IDE
+.DS_Store
+.vscode/

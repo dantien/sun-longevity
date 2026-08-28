@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "SUN Longevity",
+    "slug": "sun-longevity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020617"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.sevenunitynetwork.longevity",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "location", "bluetooth-central"],
+        "NSBluetoothAlwaysUsageDescription": "SUN Longevity bruker Bluetooth for å koble til pulsbelter (Polar, Garmin, Wahoo) under trening.",
+        "NSBluetoothPeripheralUsageDescription": "SUN Longevity bruker Bluetooth for å motta sanntids hjertefrekvensdata.",
+        "NSLocationWhenInUseUsageDescription": "SUN Longevity bruker posisjon for å beregne tempo (min/km) og distanse under MAF-trening.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "SUN Longevity trenger posisjon i bakgrunnen for nøyaktig registrering av hele treningsøkten når skjermen er låst."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#020617"
+      },
+      "package": "org.sevenunitynetwork.longevity",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "FOREGROUND_SERVICE_CONNECTED_DEVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
