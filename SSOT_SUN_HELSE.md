@@ -34,6 +34,12 @@
    * Råd for ernæring, døgnrytme og søvn basert på NNR og vitenskapelige studier med automatisk akuttmedisinsk nødavskjæring (113).
 7. **🔒 100 % Suverent Personvern (GDPR Art. 9 Encryption Shield):**
    * Alle helsedata lagres lokalt i medlemmets isolerte SQLite-database og synkroniseres til egen SUN Community Node.
+8. **🧠 Needle On-Device MAF 180 Sanntids Biofeedback Coach (14 MB Edge AI):**
+   * **Maskinvare:** Needle 2 integrert i mobilappen (`11_sun_helse/mobile`) via ONNX/Wasm for 100 % lokal prosessering.
+   * **Kontekstuell Løpecoach i Øret:** Erstatter "dumme pipere" med rolige, situasjonsbestemte stemmebeskjeder i hodetelefonene med 70 % Audio Ducking (f.eks. *«Motbakke: pulsen er 134, gå rolig til toppen»* / *«Nedoverbakke: rom for å øke stegfrekvensen»*).
+   * **Cardiac Drift & Dehydreringsvarsel:** Oppdager pulsstigning ved uendret fart etter 45+ min og anbefaler drikke eller fartsjustering for å beskytte aerob fettforbrenning.
+   * **Sanntids HRV- & Vagusnerve-Radar:** Analyserer RR-intervaller direkte fra Bluetooth-beltet (Polar H10) og varsler om akutt sympatisk stress før melkesyre oppstår.
+   * **100 % Frakoblet i Skog og Fjell:** Fungerer uten 4G og med 0 % batterisluk (~28 MB RAM). Synkroniserer ferdig økt-sammendrag til `longevity.db` og [10_sun_connect](file:///home/terjep/SUN_OS/projects/10_sun_connect) ved hjemkomst.
 
 ---
 
@@ -41,3 +47,5 @@
 * **Enkel / Senior Modus:** Gigantiske 72pt tall, grønn/gul/rød fargekoding + formikoner, ett-trykks start.
 * **Klassisk MAF Modus:** Puls, avvik, tempo, distanse og tid i sone.
 * **Longevity & Analyse Modus:** Sanntids fettforbrenningsrate og aerob indeks.
+* **Needle Voice-Coach Modus:** Håndfri, skjermløs økt med adaptiv stemmeveiledning.
+
